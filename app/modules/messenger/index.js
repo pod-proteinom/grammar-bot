@@ -7,8 +7,8 @@ class Messenger {
     constructor() {
         if (process.env.NODE_ENV === 'production') {
             this.bot = new TelegramBot(process.env.BOT_TOKEN, 
-                { webHook: { port: config.port, host: config.host } });
-            this.bot.setWebHook(config.externalUrl + ':443/bot' + process.env.BOT_TOKEN);
+                { webHook: { port: conf.port, host: conf.host } });
+            this.bot.setWebHook(conf.externalUrl + ':443/bot' + process.env.BOT_TOKEN);
         } else {
             this.bot = new TelegramBot(process.env.BOT_TOKEN, { polling: true });
         }
