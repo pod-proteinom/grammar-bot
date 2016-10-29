@@ -1,0 +1,25 @@
+{
+  "name": "grammar-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "config": "^1.21.0",
+    "node-telegram-bot-api": "^0.24.0",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pod-proteinom/grammar-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pod-proteinom/grammar-bot/issues"
+  },
+  "homepage": "https://github.com/pod-proteinom/grammar-bot#readme"
+}
